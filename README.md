@@ -1,4 +1,4 @@
-# Wall-Following Mobile Robot with Fuzzy Control 🤖
+# Wall-Following Mobile Robot with Fuzzy Control 
 
 This repository contains the source code, communication scripts, and monitoring software for a differential-drive mobile robot. The system utilizes a Fuzzy Logic Controller to maintain a fixed distance from a wall while moving.
 
@@ -18,7 +18,8 @@ Based on the uploaded files, the repository is organized as follows:
     Contains the code for the ESP32 module. It acts as a wireless bridge, reading UART serial data from the Arduino and transmitting it over Bluetooth to the PC.
 *   📦 **`BTL_DKTM_Monitor.rar`**
     A compressed archive containing the C# WinForms GUI application. Extract this file and run the application to visualize the robot's real-time Process Value (PV - actual distance) and Setpoint (SP - target distance) on a dynamic chart.
-
+*   📄 **`Fuzzy Control_Wall Following Robot_Report.pdf`**
+    Comprehensive project report detailing the kinematic model, fuzzy controller design, hardware configuration, and experimental results (in Vietnamese).
 ## 🛠 Hardware Components
 *   **Main Controller:** Arduino Uno R3
 *   **Communication:** ESP32 Module
